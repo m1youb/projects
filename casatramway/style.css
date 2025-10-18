@@ -1,0 +1,91 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction:column;
+  min-height: 100vh;
+  background-image: url('https://www.railwaypro.com/wp/wp-content/uploads/2022/05/CasaTramway.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#main, #output {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(152, 150, 150, 0.731);
+  padding: 15px;
+  border-radius: 10px;
+  /* backdrop-filter: blur(10px); /* blur the background behind it */
+  /* -webkit-backdrop-filter: blur(10px); /* for Safari */
+}
+
+#output {
+  align-items: start;
+  visibility: hidden;
+  /* width: 50%; */
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(0, 0, 0, 0.844);
+  color: rgb(50, 223, 50);
+}
+
+#prev {
+  color:white;
+}
+
+#output * {
+  font-family: "Space Mono", monospace;
+}
+
+
+button {
+  width: 200px;
+  background-color: #ef4b2a; /* green */
+  color: white;
+  padding: 12px 14px;
+  margin: 5px;
+  align-items: center;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#save-btn {
+  background-color: green;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+#count {
+  margin: 10px;
+  padding: 0;
+  font-size: 5em;
+  color: rgb(255, 101, 41);
+}
+
+h1 {
+    color:#ffffff;
+}
+
+#container {
+  width: 500px;
+  max-width: 80%;
+}
