@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(152, 150, 150, 0.731);
+  background-color: rgba(2, 2, 2, 0.731);
   padding: 15px;
   border-radius: 10px;
   /* backdrop-filter: blur(10px); /* blur the background behind it */
@@ -36,7 +36,7 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: rgba(0, 0, 0, 0.844);
-  color: rgb(50, 223, 50);
+  color: rgb(255, 101, 41);
 }
 
 #prev {
@@ -49,21 +49,25 @@ body {
 
 
 button {
+  font-family: 'Cursed Timer ULiL', sans-serif;
   width: 200px;
-  background-color: #ef4b2a; /* green */
-  color: white;
+  background-color: #1b1b1b; /* green */
   padding: 12px 14px;
   margin: 5px;
   align-items: center;
   border: none;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 19px;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
 }
 
+#increment-button {
+  color: rgb(255, 152, 56);
+}
+
 #save-btn {
-  background-color: green;
+  color: rgb(67, 255, 67);
 }
 
 button:hover {
@@ -75,14 +79,16 @@ button:active {
 }
 
 #count {
+  font-family: 'Cursed Timer ULiL', sans-serif;
   margin: 10px;
   padding: 0;
-  font-size: 5em;
+  font-size: 8em;
   color: rgb(255, 101, 41);
 }
 
 h1 {
-    color:#ffffff;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  color:#ffffff;
 }
 
 #container {
